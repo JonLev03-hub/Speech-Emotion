@@ -12,7 +12,7 @@ First in this data I have had to reduce the sample rate to 16kHz, this was done 
 
 ### Loading Data Features
 
-I have created one function that can go through a data file and load our target features (<target features>) shown below.
+I have created one function that can go through a data file and load our target features (mel, croma, mfccs) shown below.
   ![image](https://user-images.githubusercontent.com/81537476/160049903-be69b1e3-e30c-4a92-9c2c-2a46b5dcb408.png)
 
   To effectively use this I then created another function that is able to go through all of the files in an os.walk and then save the features to a numpy array. In this same step I had also added a few lines to sort through the emotions so that you would be able to choose what emotions can be displayed, and then save that to another numpy array for machine learning. This function is shown below. 

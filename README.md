@@ -8,7 +8,7 @@ In this project I will be using the [RAVDESS](https://zenodo.org/record/1188976)
 ### Data Cleaning and Manipulation
 First in this data I have had to reduce the sample rate to 16kHz, this was done by walking through the files with os.walk and using features from [ffmpeg](https://ffmpeg.org/) to reduce the sample rate and save to a new location. This is done in "audio_resampling.ipynb"
 
-![image](https://user-images.githubusercontent.com/81537476/158723343-6d190c24-e578-4377-8017-370571b6143e.png)
+![image](https://user-images.githubusercontent.com/81537476/160051501-f4f48fa6-570e-48d5-8ba8-88992f38abc8.png)
 
 ### Loading Data Features
 
